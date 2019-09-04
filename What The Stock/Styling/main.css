@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+    border: 2px solid black;
+    padding:10px;
+    width: 75%;
+    /*background: url('../Images/background2.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    margin: 20px auto;
+
+}
+
+section{
+    padding-left: 50px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* CLASS SELECTORS */
+ul.navigation{
+    list-style-type: none;
+    padding: 25px;
+    padding-left: 0;
+}
+
+ul.navigation li{
+    display: inline;
+    margin: 20px;
+}
+
+.todaysCarsColumn{
+    margin: auto;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.sedans{
+    width:75%;
+}
+
+/* ID Selectors */
+#todayPhotosRow{
+    margin: 20px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    width: 100%;
+
+}
+
+section h2{
+    margin: 0 auto;
+}
