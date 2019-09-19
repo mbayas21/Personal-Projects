@@ -38,6 +38,16 @@ ul.navigation li{
     margin: 20px;
 }
 
+ul.navbar-nav li {
+    display: inline;
+    margin: 20px;
+}
+
+/*form .form-group {
+    margin: 0 auto;
+    width: 50%;
+}*/
+
 .todaysCarsColumn{
     margin: auto;
     float: left;

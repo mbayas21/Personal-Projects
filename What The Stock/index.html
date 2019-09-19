@@ -2,22 +2,50 @@
     <html>
         <head>
             <title>2019 Midsize Sedans</title>
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
             <link rel="stylesheet" type="text/css" href="Styling/main.css" >
-            <script type="text/javascript" src="Scripting/javascript.js"></script>  
+            
+            <!--<script type="text/javascript" src="Scripting/javascript.js"></script>-->
+            
+            <!-- Latest compiled and minified CSS -->
+            <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+            <!-- Popper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         </head>
 
         <body>
-            <header>
-                <nav>
-                    <ul class="navigation">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">More Pics #1</a></li>
-                        <li><a href="#">More Pics #2</a></li>
-                    </ul>
-                </nav>
-            </header>
+        <header class="container">
+            <div class="row">
+                <div class="col-6">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!--<ul class="navigation">-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#">Home</a></li>
+                            <li class="nav-item"><a href="#">Toyotas</a></li>
+                            <li class="nav-item"><a href="#">Hondas</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6">
+                    <form id="form" class="form-inline mt-3">
+                        <div class="form-group mb-2">
+                            <input type="text" class="form-control form-control-sm" placeholder="search for a vehicle"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 ml-2">Search</button>
+                    </form>
+                </div>
+            </div>
+        </header>
 
-            <a href="#">Upload your photos here</a>
+            <a href="#">Upload your photos here</a> 
             <h2 class="lineup-headers">2020 Model Lineup</h2>
             <!-- <section id="todayPhotosRow"> -->
             <section class="flex-container" >
