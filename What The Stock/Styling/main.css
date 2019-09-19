@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
     border: 2px solid black;
     padding:10px;
-    width: 75%;
+    width: 75%;  
     /*background: url('../Images/background2.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,6 +37,16 @@ ul.navigation li{
     display: inline;
     margin: 20px;
 }
+
+ul.navbar-nav li {
+    display: inline;
+    margin: 20px;
+}
+
+/*form .form-group {
+    margin: 0 auto;
+    width: 50%;
+}*/
 
 .todaysCarsColumn{
     margin: auto;
