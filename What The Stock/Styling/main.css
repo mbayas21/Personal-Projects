@@ -26,6 +26,10 @@ a{
     text-decoration: none;
 }
 
+footer{
+    border: 3px solid black;
+}
+
 /* CLASS SELECTORS */
 ul.navigation{
     list-style-type: none;
@@ -43,10 +47,9 @@ ul.navbar-nav li {
     margin: 20px;
 }
 
-/*form .form-group {
-    margin: 0 auto;
-    width: 50%;
-}*/
+footer ul.footerClass {
+    list-style: none;
+}
 
 .todaysCarsColumn{
     margin: auto;
