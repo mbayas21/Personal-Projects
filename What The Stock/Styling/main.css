@@ -14,8 +14,8 @@ body{
 
 header{
     margin: 20px auto;
-
 }
+
 
 section{
     padding-left: 50px;
@@ -71,6 +71,17 @@ footer ul.footerClass {
     align-items: center;
 }
 
+.lineup-headers{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+ul.footerClass li{
+    display: block;
+    float:left
+}
+
 /* ID Selectors */
 #todayPhotosRow{
     margin: 20px auto;
@@ -78,15 +89,25 @@ footer ul.footerClass {
     padding-right: 50px;
     display: flex;
     width: 100%;
-
 }
 
-.lineup-headers{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+#footerParagraphs{
+    line-height: 0;
+    font-size: 10px;
 }
 
+#contactInfoAndLogoHeader p {
+    padding: 20px;
+    font-size: 25px;
+    margin:30px;
+}
+
+
+/* Nested Selectors */
 section h2{
     margin: 0 auto;
+}
+
+header p{
+    float: right;
 }
