@@ -6,24 +6,41 @@ body{
     margin: 0 auto;
     border: 2px solid black;
     padding:10px;
-    width: 75%;  
-    /*background: url('../Images/background2.jpg');*/
+    width: 75%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div nav{
+    margin-left:  30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
 }
 
 header{
     margin: 20px auto;
 }
 
-
 section{
     padding-left: 50px;
     display: inline;
 }
 
-a{
+li a{
     text-decoration: none;
+    background-color: #dddddd;
+    display: inline;
 }
 
 footer{
@@ -31,17 +48,6 @@ footer{
 }
 
 /* CLASS SELECTORS */
-ul.navigation{
-    list-style-type: none;
-    padding: 25px;
-    padding-left: 0;
-}
-
-ul.navigation li{
-    display: inline;
-    margin: 20px;
-}
-
 ul.navbar-nav li {
     display: inline;
     margin: 20px;
@@ -100,6 +106,10 @@ ul.footerClass li{
     padding: 20px;
     font-size: 25px;
     margin:30px;
+}
+
+#form{
+    float: right;
 }
 
 
