@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /*width: 60%;*/
+    /* background: url('Images/form-wallpaper.jpg'); */
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
+
+/* Class Selectors */
+.main-header{
+    background: #D9BEB4;
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 168px);
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a:hover{
+    color:white;
+}
+
+.main-nav__item a:active{
+    color:blue;
+}
+
+.main-nav__item > a{
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+/* ID Selectors */
+#container{
+    background-color: cornsilk;
+    opacity: 0.6;
+}
+
+#formDiv{
+    border: 5px solid red;
+}
+
+#helloDiv{
+    border: 5px solid red;
+}
+
+#submit{
+    width: 50%;
+}
+
+#form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer{
+    border: 3px solid black;
+}
+
+footer img{
+    padding: 0 0;
+    display: inline-block;
+    width: calc(1248.33px / 4);
+}
+
+#product-overview-footer{
+    display: inline-block;
+    /*width: calc(100% - 196px);*/
+    width: calc(1248.33px / 4);
+    border-right: 1px;
+}
+
+#social-media-footer{
+    display: inline-block;
+    width: calc(1248.33px / 4);
+    border-right: 1px;
+}
+
+#newsletter-footer{
+    display:inline-block;
+    width: calc(1248.33px / 4);
+    border-right: 1px;
+}
+
+.form-footer{
+    padding: 0;
+    margin: 0;
+}
+
+.form-footer > input{
+    border: 0;
+    padding: 0;
+}
