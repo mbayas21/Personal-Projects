@@ -70,6 +70,32 @@ body {
     color: blue;
 }
 
+.secondary-overview__main-content, .secondary-overview__secondary-content{
+    display: inline-block;
+}
+
+.secondary-overview__main-content{
+    border-radius: 5px;
+    border: 5px solid red;
+    width: 74%
+}
+
+.secondary-overview__main-content > p{
+    margin: 0;
+}
+
+.secondary-overview__secondary-content{
+    border: 5px solid red;
+    border-radius: 5px;
+    width: 24%;
+}
+
+.secondary-overview__image{
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+}
+
 /* ID Selectors */
 #main-overview{
     background: url("Images/cat.jpg"); 
@@ -77,6 +103,10 @@ body {
     width: 100%;
     height: 1000px;
     background-position: center
+}
+
+#secondary-overview{
+    border: 3px solid black;
 }
 
 #container{
